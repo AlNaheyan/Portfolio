@@ -22,10 +22,10 @@ const Hero = () => {
             <main className="text-slate-950 dark:text-slate-50 w-full max-w-3xl flex-col md:flex-row md:items-center pt-20 md:pt-20 pb-20 px-6 mx-auto" id='page-id'>
                 <section id="name-and-about">
                     <div className=" items-center flex-1 md:text-left z-[1]">
-                        <h2 className="text-5xl mt-3 md:text-6xl md:mt-5 mb-2 "><b> Hi, I'm Al Naheyan </b>👋</h2>
+                        <h2 className="text-5xl mt-3 md:text-6xl md:mt-5 mb-2 "><b> Hey, I'm Al Naheyan </b>👋</h2>
                         <span className="text-l md:text-xl font-normal dark:text-white/80">A Full Stack Developer and Graphic Designer</span>
                         <h2 className='mt-10 text-xl font-bold'>About</h2>
-                        <p className="w-full text-xs font-normal leading-5 md:text-sm md:leading-6 md:mb-8 dark:text-white/80">Second-year Computer Science student, Software Engineer. Currently a Software Engineering Intern at Unadat. My passion for solving problems brought me to the Grove School of Engineering at City College of New York and pursue for Software Engineering. During my free time, I enjoy playing video games and travelling.</p>
+                        <p className="w-full text-xs font-normal leading-5 md:text-sm md:leading-6 md:mb-8 dark:text-white/80">Second-year Computer Science student, Software Engineer. Previously a Software Engineering Intern at Unadat. My passion for solving problems brought me to the Grove School of Engineering at City College of New York and pursue for Software Engineering. During my free time, I enjoy playing video games and travelling.</p>
                     </div>
                 </section>
 
@@ -33,7 +33,37 @@ const Hero = () => {
                     <div className="mt-5 items-center flex-1 md:text-left z-[1]">
                         <h2 className='text-xl font-bold'>Work Experience</h2>
                     </div>
-                    <div className='mt-5' id='first-experience'>
+
+                    <div className='mt-3' id='fourth-experience'>
+                        <div className='block'>
+                            <div className='rounded-lg bg-red flex'>
+                                <a className='flex-none cursor-pointer' href="https://headstarter.co/" target='_blank'>
+                                    <span className='relative flex shrink-0 overflow-hidden rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground dark:border-zinc-950'>
+                                        <img className='aspect-square  h-full w-full object-contain' alt='Unadat-image' src={HEADSTARTER}></img>
+                                    </span>
+                                </a>
+                                <div className='flex-grow ml-4 items-center flex-col group'>
+                                    <div className='flex flex-col'>
+                                        <div className='flex items-center justify-between gap-x-2 text-base'>
+                                            <h3 className='inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm'> Headstarter
+                                                <span className='inline-flex gap-x-1'></span>
+                                                <div className='opacity-0 hover:opacity-100'>
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                                                </div>
+                                                
+                                            </h3>
+                                            <div className='text-xs sm:text-sm tabular-nums text-right'>
+                                                July 2024 - Oct 2024
+                                            </div>
+                                        </div>
+                                        <div className='font-sans text-xs'> Software Engineer Fellow</div>
+                                    </div>
+                                    {/* <div className='mt-2 text-xs sm:text-sm'> Collaborated with Technical, Product, and Sales teams to develop automated features and user interfaces, improving website functionality and user experience by 20%. Integrated designs with tech lead on Google Cloud, enhancing deployment efficiency and reducing release times by 15% </div> */}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='mt-3' id='first-experience'>
                         <div className='block'>
                             <div className='rounded-lg bg-red flex'>
                                 <a className='flex-none cursor-pointer' href="https://unadat.com/" target='_blank'>
@@ -62,35 +92,7 @@ const Hero = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='mt-3' id='fourth-experience'>
-                        <div className='block'>
-                            <div className='rounded-lg bg-red flex'>
-                                <a className='flex-none cursor-pointer' href="https://headstarter.co/" target='_blank'>
-                                    <span className='relative flex shrink-0 overflow-hidden rounded-full border size-12 m-auto bg-muted-background dark:bg-foreground dark:border-zinc-950'>
-                                        <img className='aspect-square  h-full w-full object-contain' alt='Unadat-image' src={HEADSTARTER}></img>
-                                    </span>
-                                </a>
-                                <div className='flex-grow ml-4 items-center flex-col group'>
-                                    <div className='flex flex-col'>
-                                        <div className='flex items-center justify-between gap-x-2 text-base'>
-                                            <h3 className='inline-flex items-center justify-center font-semibold leading-none text-xs sm:text-sm'> Headstarter
-                                                <span className='inline-flex gap-x-1'></span>
-                                                <div className='opacity-0 hover:opacity-100'>
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
-                                                </div>
-                                                
-                                            </h3>
-                                            <div className='text-xs sm:text-sm tabular-nums text-right'>
-                                                July 2024 - Present
-                                            </div>
-                                        </div>
-                                        <div className='font-sans text-xs'> Software Engineer Fellow</div>
-                                    </div>
-                                    {/* <div className='mt-2 text-xs sm:text-sm'> Collaborated with Technical, Product, and Sales teams to develop automated features and user interfaces, improving website functionality and user experience by 20%. Integrated designs with tech lead on Google Cloud, enhancing deployment efficiency and reducing release times by 15% </div> */}
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+
                     <div className='mt-3' id='second-experience'>
                         <div className='block'>
                             <div className='rounded-lg bg-red flex'>
@@ -232,7 +234,7 @@ const Hero = () => {
                                                 
                                             </h3>
                                             <div className='text-xs sm:text-sm tabular-nums text-right'>
-                                                February 2024 - August 2024
+                                                February 2024 - November 2024
                                             </div>
                                         </div>
                                         <div className='font-sans text-xs'> Student</div>
@@ -254,11 +256,17 @@ const Hero = () => {
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Next.js
                                 </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> React Native
+                                </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> JavaScript
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> TypeScript
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> jQuery
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> PHP
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> SQL
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> C++
                                 </div>
@@ -272,7 +280,11 @@ const Hero = () => {
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Firebase
                                 </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Supabase
+                                </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Git/GitHub
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Vercel
                                 </div>
                         </div>
                         
@@ -308,7 +320,7 @@ const Hero = () => {
                     <div className='mt-10 flex gap-5' id='interactice-buttons'>
                         <a className="primary-btn text-white dark:text-black bg-black/80 dark:bg-white rounded-lg px-4 py-2 text-s hover:bg-black/70 dark:hover:bg-white/80" id='contact-button' href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWrRttFtTMLtMQXSRqgPTxXgJSNKHxRxfTnlmVrTJBhHtqXCxRNjmlzBSlnhzWSnnPnDFZBXV" target='_blank'>Email Me
                         </a> 
-                        <a className="primary-btn cursor-pointer text-black dark:text-white border border-solid dark:border-white/10 rounded-lg px-4 py-2 text-s hover:bg-black/10 dark:hover:bg-white/10" id='resume-button' href="https://drive.google.com/file/d/1P8zXbe3A5KhDgp5yBon-uaLtry6oszfw/view" target='_blank'>Resume 
+                        <a className="primary-btn cursor-pointer text-black dark:text-white border border-solid dark:border-white/10 rounded-lg px-4 py-2 text-s hover:bg-black/10 dark:hover:bg-white/10" id='resume-button' href="https://drive.google.com/file/d/1FrJ4bvFGFTGl69bpHwIWcklyHftAfAfy/view?usp=sharing" target='_blank'>Resume 
                         </a> 
                     </div>
                 </section>
