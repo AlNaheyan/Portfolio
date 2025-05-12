@@ -25,7 +25,7 @@ const Hero = () => {
                 <section id="name-and-about">
                     <div className=" items-center flex-1 md:text-left z-[1]">
                         <h2 className="text-5xl mt-3 md:text-6xl md:mt-5 mb-2 "><b> Hey, I'm Al Naheyan </b>👋</h2>
-                        <span className="text-l md:text-xl font-normal dark:text-white/80">A Full Stack Software Engineer</span>
+                        <span className="text-l md:text-xl font-normal dark:text-white/80">A Software Engineer</span>
                         <h2 className='mt-10 text-2xl font-bold'>About</h2>
                         <p className="w-full text-xs font-normal leading-5 md:text-sm md:leading-6 md:mb-8 dark:text-white/80">Second-year Computer Science student, Software Engineer. I enjoy building things and generating ideas. Currently learning ML/AI through books, projects and errors. My passion for solving problems brought me to the Grove School of Engineering at City College of New York. Always open to connecting and creating something awesome!</p>
                     </div>
@@ -55,7 +55,7 @@ const Hero = () => {
                                                 
                                             </h3>
                                             <div className='text-xs sm:text-sm tabular-nums text-right'>
-                                                January 2025 - Present
+                                                January 2025 - May 2025
                                             </div>
                                         </div>
                                         <div className='font-sans text-xs'> Tech Fellow </div>
@@ -284,15 +284,23 @@ const Hero = () => {
                             <h2 className='mt-10 text-2xl font-bold'>Skills</h2>  
                         </div>
                         <div className='flex flex-wrap gap-2'>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> JavaScript
+                                </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> React
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Next.js
                                 </div>
-                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> React Native
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Python
                                 </div>
-                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> JavaScript
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Flask
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> TypeScript
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Rust
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> C++
+                                </div>
+                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> React Native
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> jQuery
                                 </div>
@@ -300,17 +308,11 @@ const Hero = () => {
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> SQL
                                 </div>
-                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> C++
-                                </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> HTML
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> CSS
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Tailwind
-                                </div>
-                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Python
-                                </div>
-                                <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Flask
                                 </div>
                                 <div className="inline-flex items-center rounded-md border px-2.5 py-0.5 text-xs font-medium  focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-black hover:bg-black/80 dark:bg-white text-white dark:text-black shadow dark:hover:bg-white/80"> Firebase
                                 </div>
@@ -400,7 +402,7 @@ const Hero = () => {
                                         </p>
                                         <div className='max-w-full text-xs'>
                                             <p>
-                                                Simplify your fianancial budgeting with Walltro. Add incomes and expenses everytime you purchase or earn to track weekly and monthly budgeting. 
+                                                Simplify your fianancial budgeting with Walletro. Add incomes and expenses everytime you purchase or earn to track weekly and monthly budgeting. 
                                             </p>
                                         </div>
                                     </div>
