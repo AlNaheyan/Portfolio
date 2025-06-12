@@ -33,7 +33,7 @@ const Hero = () => {
 
                 <section id="experience">
                     <div className="mt-5 items-center flex-1 md:text-left z-[1]">
-                        <h2 className='text-2xl font-bold'>Work Experience</h2>
+                        <h2 className='text-2xl font-bold'> Experience</h2>
                     </div>
 
                     <div className='mt-3' id='fifth-experience'>
